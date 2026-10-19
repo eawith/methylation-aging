@@ -4,7 +4,7 @@ This repository implements a comparative framework evaluating multiple DNA methy
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ├── prepare_data.py                   # extract liver subset, fetch Ensembl sequence windows
@@ -21,14 +21,14 @@ This repository implements a comparative framework evaluating multiple DNA methy
 
 ---
 
-## 🧬 Project Overview
+# Project Overview
 This project compares traditional regularized regression against representations derived from DNA language models and methylation transformer models. 
 
 Models are trained on 90% of the dataset and evaluated on a **10% holdout test set** to predict an unsupervised biological age proxy calculated directly from global methylation statistics.
 
 ---
 
-## 📊 Datasets
+##  Datasets
 
 ### 1. Blood Dataset (Cayo Santiago Macaques)
 - **Samples**: 572 longitudinal blood RRBS samples from 216 unique individuals.
@@ -72,7 +72,7 @@ In the absence of raw chronological age metadata for all samples (particularly l
 
 ---
 
-## 🤖 Models Compared
+## Models Compared
 
 We generate and compare embeddings from five distinct approaches:
 
@@ -84,7 +84,7 @@ We generate and compare embeddings from five distinct approaches:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 pip install torch transformers scikit-learn pandas numpy matplotlib seaborn scipy
